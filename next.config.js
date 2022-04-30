@@ -1,4 +1,3 @@
-const { dirname } = require('path');
 const path = require('path');
 
 const nextConfig = {
@@ -7,3 +6,5 @@ const nextConfig = {
     includePaths: [path.join(__dirname, 'styles')]
   }
 }
+
+module.exports = nextConfig
