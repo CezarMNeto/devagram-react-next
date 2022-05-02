@@ -1,4 +1,4 @@
-import avatarImg from '../../public/imagens/Avatar.svg';
+import avatarImg from '../../public/imagens/avatar.svg';
 
 export default function Avatar({ src }) {
     const getAvatar = () => {
@@ -15,5 +15,5 @@ export default function Avatar({ src }) {
             alt='Avatar'
             className='avatar'
         />
-    )
+    );
 }

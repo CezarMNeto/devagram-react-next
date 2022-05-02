@@ -1,3 +1,4 @@
+
 export default function Botao({
     tipo = 'button',
     texto,
